@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscrição Swiftie</title>
+</head>
+<body>
+
+    <h1>Pesquisa & Inscrição Swiftie 🎤✨</h1>
+
+    <form action="https://webhook.site/a7f8a7ee-baba-4190-8f35-ea3814852cbd" method="post">
+
+        <fieldset>
+            <legend>Informações do Fã</legend>
+
+            <label for="nome">Nome Completo:</label><br>
+            <input type="text" id="nome" name="nome_fa" required maxlength="60"><br><br>
+
+            <label for="email">E-mail para Contato:</label><br>
+            <input type="email" id="email" name="email_fa" required><br><br>
+
+            <label for="data_show">Data de um show que você foi ou quer ir:</label><br>
+            <input type="date" id="data_show" name="data_show"><br>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Sua Relação com as Eras</legend>
+
+            <label for="era_favorita">Qual é a sua Era favorita?</label>
+            <select id="era_favorita" name="era_favorita" required>
+                <option value="">-- Escolha uma Era --</option>
+                <option value="fearless">Fearless</option>
+                <option value="red">Red</option>
+                <option value="1989">1989</option>
+                <option value="reputation">Reputation</option>
+                <option value="lover">Lover</option>
+                <option value="folklore">Folklore</option>
+                <option value="evermore">Evermore</option>
+                <option value="midnights">Midnights</option>
+                <option value="ttpd">The Tortured Poets Department</option>
+            </select><br><br>
+
+            <p>Você já foi a um show da 'The Eras Tour'?</p>
+            <label>
+                <input type="radio" name="foi_na_tour" value="sim" required> Sim
+            </label>
+            <label>
+                <input type="radio" name="foi_na_tour" value="nao"> Não
+            </label><br><br>
+
+            <p>Quais itens da Taylor você possui? (Marque todos que tiver):</p>
+            <label>
+                <input type="checkbox" name="colecao[]" value="cd"> CD
+            </label><br>
+            <label>
+                <input type="checkbox" name="colecao[]" value="vinil"> Vinil
+            </label><br>
+            <label>
+                <input type="checkbox" name="colecao[]" value="pulseiras"> Pulseiras da Amizade
+            </label><br><br>
+
+            <label for="historia">Qual a sua música favorita e por quê?</label><br>
+            <textarea id="historia" name="musica_favorita_motivo" rows="4" cols="40" placeholder="Conte a história da sua música favorita..." required></textarea>
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Enviar minha inscrição Swiftie!">
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+/* 1. Mudando a cor de fundo da página e a cor da fonte */
+body {
+    background-color: #f0f4f8;
+    color: #2c3e50;
+    font-family: Arial, sans-serif;
+}
+
+/* 2. Alterando atributos da imagem */
+img {
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
